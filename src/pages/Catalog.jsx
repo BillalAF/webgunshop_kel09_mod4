@@ -5,10 +5,9 @@ function Catalog() {
   return (
     <>
       <section className="masthead">
-        <h1 className="display">Hardware, by the spec sheet.</h1>
+        <h1 className="display">Gunshop 09</h1>
         <p className="lede">
-          A small armory of pistols, rifles, and shotguns. Every piece listed with its
-          type, caliber, and price — nothing else.
+        Tempat penjualan senjata pasukan Rongawi
         </p>
       </section>
 
