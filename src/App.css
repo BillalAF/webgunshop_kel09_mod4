@@ -161,14 +161,16 @@
   color: var(--ink);
 }
 
-.sort-wrapper {
+.sort-wrapper,
+.filter-wrapper {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   gap: 8px;
 }
 
-.sort-label {
+.sort-label,
+.filter-label {
   font-size: 0.82rem;
   font-weight: 700;
   color: var(--steel);
@@ -176,13 +178,15 @@
   letter-spacing: 0.04em;
 }
 
-.sort-buttons {
+.sort-buttons,
+.filter-buttons {
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
 }
 
-.sort-btn {
+.sort-btn,
+.filter-btn {
   background: #fff;
   border: 1px solid var(--line);
   color: var(--steel);
@@ -195,12 +199,14 @@
   transition: all 0.15s ease;
 }
 
-.sort-btn:hover {
+.sort-btn:hover,
+.filter-btn:hover {
   border-color: var(--ink);
   color: var(--ink);
 }
 
-.sort-btn.active {
+.sort-btn.active,
+.filter-btn.active {
   background: var(--panel);
   border-color: var(--panel);
   color: #fff;
@@ -447,6 +453,30 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
+}
+
+.cart-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.cart-filter-empty {
+  padding: 36px 16px;
+  text-align: center;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  color: var(--steel);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.cart-filter-empty p {
+  margin: 0;
+  font-size: 0.95rem;
 }
 
 .cart-list {
