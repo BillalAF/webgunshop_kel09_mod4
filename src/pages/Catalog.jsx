@@ -47,7 +47,7 @@ function Catalog({ guns = [], cart = [], onAddToCart }) {
             <input
               type="text"
               className="search-input"
-              placeholder="Cari senjata (nama, tipe, kaliber)..."
+              placeholder="Cari Senjata (nama/tipe/kaliber)"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
             />
