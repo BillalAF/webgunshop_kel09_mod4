@@ -53,6 +53,34 @@ const GUNS = [
     description:
       'The other pump gun. Twin action bars, a simple safety on the tang, and a price that leaves money for ammunition.',
   },
+  {
+    name: 'Banana gun',
+    type: 'Pistol',
+    caliber: 'Banana',
+    price: 6767,
+    image: '/guns/BananaGun.png',
+    description:
+      'The Banana gun easy to baiting a monkeys.',
+  },
+  {
+    name: 'RPG',
+    type: 'Rocket Launcher',
+    caliber: 'Rocket',
+    price: 21212,
+    image: '/guns/rpg3.jpg',
+    description:
+      'The RPG easy to use, just pull the trigger and fire, and KABOOM!!.',
+  },
+  {
+    name: 'M4A1',
+    type: 'Rifle',
+    caliber: '5.56mm',
+    price: 1099,
+    image: '/guns/m4.png',
+    description:
+      'The Rifle for CT teams.',
+  
+  },
 ]
 
 export default GUNS
